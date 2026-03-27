@@ -1,21 +1,21 @@
 import streamlit as st
 import requests
 
-# ---------------- CONFIG ---------------- #
+# CONFIG
 st.set_page_config(page_title="Telecom AI Chat", layout="centered")
 
 st.title("📡 Telecom AI Assistant")
 
-# ---------------- SESSION STATE ---------------- #
+# SESSION STATE
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# ---------------- DISPLAY CHAT HISTORY ---------------- #
+# DISPLAY CHAT HISTORY
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
 
-# ---------------- INPUT BOX ---------------- #
+# INPUT BOX
 user_input = st.chat_input("Describe your issue...")
 
 if user_input:

@@ -1,13 +1,13 @@
 def build_prompt(user_query, history=[], context=""):
 
-    # ---------------- FORMAT CHAT HISTORY ---------------- #
+    # FORMAT CHAT HISTORY 
     history_text = ""
     for msg in history:
         role = msg.get("role", "")
         content = msg.get("content", "")
         history_text += f"{role}: {content}\n"
 
-    # ---------------- MAIN PROMPT ---------------- #
+    # MAIN PROMPT
     prompt = f"""
 You are a telecom support triage agent.
 

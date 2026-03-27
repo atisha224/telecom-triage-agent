@@ -1,6 +1,6 @@
 documents = [
 
-# ---------------- NETWORK ISSUES ---------------- #
+# NETWORK ISSUES
 "Internet is not working. Restart your router and check if data pack is active.",
 "Slow internet speed. Move to open area or switch network mode to 4G/5G.",
 "No signal on phone. Turn airplane mode on and off or restart device.",
@@ -12,7 +12,7 @@ documents = [
 "VoLTE not working. Enable VoLTE in settings.",
 "5G not working. Ensure device supports 5G and coverage is available.",
 
-# ---------------- SIM ISSUES ---------------- #
+# SIM ISSUES
 "SIM not detected. Reinsert SIM or try in another phone.",
 "SIM card blocked. Contact customer support to unblock.",
 "Invalid SIM error. Replace SIM from nearest store.",
@@ -24,7 +24,7 @@ documents = [
 "SIM locked. Enter correct PIN or contact support.",
 "Dual SIM conflict. Switch default SIM for calls/data.",
 
-# ---------------- BILLING ISSUES ---------------- #
+# BILLING ISSUES
 "Incorrect billing amount. Check usage details and contact support.",
 "Extra charges in bill. Verify subscriptions and value-added services.",
 "Balance deducted unexpectedly. Check active services.",
@@ -36,7 +36,7 @@ documents = [
 "International charges applied. Check roaming usage.",
 "Late payment fee applied. Pay before due date next time.",
 
-# ---------------- DATA PLAN ISSUES ---------------- #
+# DATA PLAN ISSUES
 "Data exhausted quickly. Check background apps usage.",
 "Daily data limit exceeded. Speed reduced due to FUP.",
 "Unlimited plan slow speed. FUP policy applied.",
@@ -48,7 +48,7 @@ documents = [
 "Gaming lag issue. Switch to better network.",
 "Data not resetting daily. Check plan validity.",
 
-# ---------------- ROAMING ISSUES ---------------- #
+# ROAMING ISSUES
 "Roaming not working. Enable roaming in settings.",
 "High roaming charges. Use roaming pack.",
 "International roaming not active. Activate roaming plan.",
@@ -60,7 +60,7 @@ documents = [
 "Wrong roaming charges. Contact support.",
 "Roaming SMS not sending. Check network compatibility.",
 
-# ---------------- DEVICE ISSUES ---------------- #
+# DEVICE ISSUES
 "Phone overheating during usage. Close background apps.",
 "Battery draining fast. Reduce brightness and apps.",
 "Apps not loading. Check internet connection.",
@@ -72,7 +72,7 @@ documents = [
 "VPN causing issues. Disable VPN.",
 "Software bug causing network issues. Update phone.",
 
-# ---------------- CUSTOMER SUPPORT ISSUES ---------------- #
+# CUSTOMER SUPPORT ISSUES
 "Unable to reach customer care. Try alternate channels.",
 "Long waiting time. Use app support.",
 "Complaint not resolved. Escalate issue.",
@@ -84,7 +84,7 @@ documents = [
 "App not showing complaint status. Refresh app.",
 "Customer care number not working. Try website support.",
 
-# ---------------- VALUE ADDED SERVICES ---------------- #
+# VALUE ADDED SERVICES 
 "Unwanted subscription activated. Deactivate via SMS.",
 "Caller tune activated without consent. Disable service.",
 "Premium SMS charges applied. Block premium services.",
@@ -96,7 +96,7 @@ documents = [
 "Daily deduction issue. Check VAS services.",
 "Hidden charges due to VAS. Review subscriptions.",
 
-# ---------------- ACCOUNT ISSUES ---------------- #
+# ACCOUNT ISSUES
 "Account suspended. Recharge to reactivate.",
 "KYC not completed. Update documents.",
 "Account blocked. Contact support.",
@@ -108,7 +108,7 @@ documents = [
 "OTP not received. Check network.",
 "Number deactivated. Contact provider.",
 
-# ---------------- ADVANCED / EDGE CASES ---------------- #
+# ADVANCED / EDGE CASES
 "Network works but no internet. DNS issue, reset settings.",
 "Internet works but apps not loading. Clear app cache.",
 "Only WhatsApp works, others not. Check data restrictions.",
